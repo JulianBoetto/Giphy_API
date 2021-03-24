@@ -1,0 +1,17 @@
+<div class="container-fluid">
+   <div class="col">
+    <h1 class="row">Procurador de GIFs!</h1>
+    <nav class="navbar navbar-light bg-transparent shadow p-3 mb-5">
+      
+      <form class="d-flex mw-100" #formulario="ngForm" (ngSubmit)="buscar(formulario.form)" >
+        
+        <input class="form-control me-2 w-70" name="pesquisa" required placeholder="O que você está procurando?" [(ngModel)]="pesquisa">
+        
+        <button class="btn btn-outline-light" type="submit">Buscar</button>
+        
+      </form>
+    </nav>
+  </div>
+  
+</div>
+

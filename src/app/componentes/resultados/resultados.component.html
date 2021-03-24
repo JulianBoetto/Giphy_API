@@ -1,0 +1,19 @@
+<div class="container-fluid">
+    <h1>Gifs de {{ pesquisa }}</h1>
+    <nav class="navbar navbar-light bg-transparent justify-content-center">
+        <div class="container">
+          <form class="d-flex">
+            <button class="btn btn-outline-light" type="button" onclick="javascript:location.href='/'">Buscar novamente</button>
+          </form>
+        </div>
+    </nav>
+    <div class="row row-cols-md-6 justify-content-center" >
+      <div class="row justify-content-center m-1" *ngFor="let gif of gifs.data">
+        <div class="card justify-content-center">
+          <img class="gifs" [src]="gif.images.fixed_height.url" alt="">     
+        </div>
+      </div>
+    </div>
+</div>
+
+
