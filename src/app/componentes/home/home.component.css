@@ -1,28 +1,27 @@
 nav {
-    position: absolute;
-    top: 300px;
-    width: 100%;
-    align-items: center;
-    justify-content: center;
- 
+  position: absolute;
+  top: 300px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
 }
 
 input {
-    width: 500px;
+  width: 500px;
 }
 
 .container-fluid {
-    height: 100vh;
-    background: url("../../../assets/milky-way-2695569_1920.jpg");
-    background-size: cover;
+  height: 100vh;
+  background: url("https://picsum.photos/1000?random=1");
+  background-size: cover;
 }
 
 h1 {
-    justify-content: center;
-    color: black;
-    font-size: 70pt;
-    font-weight: bold;
-    position: relative;
-    top: 150px;
-    font-family: 'Train One', cursive;
+  justify-content: center;
+  color: black;
+  font-size: 70pt;
+  font-weight: bold;
+  position: relative;
+  top: 150px;
+  font-family: "Train One", cursive;
 }

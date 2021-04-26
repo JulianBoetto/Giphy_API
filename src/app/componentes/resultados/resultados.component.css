@@ -1,6 +1,6 @@
 .container-fluid {
     /* height: 100vh; */
-    background: url("../../../assets/milky-way-2695569_1920.jpg");
+    background: url("https://picsum.photos/1000?random=1");
     background-size: cover;
     background-position: center center;
     background-repeat: repeat-y;
