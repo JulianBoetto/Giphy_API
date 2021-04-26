@@ -1,26 +1,25 @@
 .container-fluid {
-    /* height: 100vh; */
-    background: url("https://picsum.photos/1000?random=1");
-    background-size: cover;
-    background-position: center center;
-    background-repeat: repeat-y;
+  /* height: 100vh; */
+  background: url("https://i.picsum.photos/id/1021/2048/1206.jpg?hmac=fqT2NWHx783Pily1V_39ug_GFH1A4GlbmOMu8NWB3Ts");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: repeat-y;
 }
 
 h1 {
-    justify-content: center;
-    color: black;
-    font-size: 50pt;
-    font-weight: bold;
-    position: relative;
-   
-    font-family: 'Train One', cursive;
+  justify-content: center;
+  color: black;
+  font-size: 50pt;
+  font-weight: bold;
+  position: relative;
+
+  font-family: "Train One", cursive;
 }
 
 .card {
-    background: none;
-    
+  background: none;
 }
 
 .gifs {
-    max-height: 100px;
+  max-height: 100px;
 }
